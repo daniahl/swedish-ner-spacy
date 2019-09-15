@@ -15,7 +15,7 @@ Download training and test sets from here: https://github.com/klintan/swedish-ne
 ## Converting the Data
 Since the downloaded data are in Stanford CoreNLP format, it needs to be converted to spaCy JSON format.
 
-The convert.py script in this repository is based on https://gist.github.com/DataTurks/97ff613967e8139e57091f9299c3a104
+The `convert.py` script in this repository is based on https://medium.com/@dataturks/convert-stanford-corenlp-training-data-to-dataturks-ner-json-output-eeaab60fb7b6.
 
 Modifications were made to keep Swedish characters in the output file, and to work properly with the specific data sets mentioned above.
 
